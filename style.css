@@ -9,18 +9,35 @@
 }
 
 *{
-    text-align: center;
     background-color: #99cc99;
 }
+
+
 hr.thick{
     height: 10px; background-color: #cccc99; border-color: #cccc99; border-width: 2px;
 }
+
+.class7 table {
+    color: rgb(0, 0, 0);
+}
+
+.class7 td {
+    padding-left: 150px;
+}
+
+.class7 li {
+    color: black;
+}
+
 .yesyes{
+    text-align: center;
     font-family: 'opensansitalic';
     font-size: 45px;
     height: 35px;
 }
+
 .below{
+    text-align: center;
     font-family: 'opensans';
     font-size: 20px;
 }
