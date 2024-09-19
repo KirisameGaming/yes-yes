@@ -1,5 +1,6 @@
-*{
-    background-color:aliceblue;
+@font-face {
+    font-family: 'opensansitalic';
+    src: url('opensans italic.ttf');
 }
 
 @font-face {
@@ -7,7 +8,19 @@
     src: url('opensans.ttf');
 }
 
+*{
+    text-align: center;
+    background-color: #99cc99;
+}
+hr.thick{
+    height: 10px; background-color: #cccc99; border-color: #cccc99; border-width: 2px;
+}
 .yesyes{
+    font-family: 'opensansitalic';
+    font-size: 45px;
+    height: 35px;
+}
+.below{
     font-family: 'opensans';
-    font-size: xx-large;
+    font-size: 20px;
 }
