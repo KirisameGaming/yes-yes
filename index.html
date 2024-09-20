@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Eksternt CSS -->
+    <style> /* Internt CSS */
+        @font-face {
+            font-family: 'opensans';
+            src: url('opensans.ttf');
+        }
+
+        *{
+           font-family: 'opensans';
+           background-color: #99cc99;
+        }
+    </style>
     <title>Document</title>
 </head>
+
 <body>
-    <hr class="thick">
-    <table width="100%">
+    <hr class="thick"> <!-- En stang på toppen av siden -->
+
+    <table width="100%"> <!-- Overskrift og bilder i hver side -->
         <tbody>
             <tr>
-                <td align="left" width="15%">        
+                <td align="left" width="15%">
                     <img src="anvil.gif">
                 </td>
-                <td align="center">        
-                    <p class="yesyes">ACME Laboratories</p> <!-- Overskrift -->
+                <td align="center">
+                    <p style="font-family: opensans; font-size: 45px; font-style: italic; height: 35px;">ACME Laboratories</p> <!-- Inline CSS -->
                 </td>
                 <td align="right" width="15%">
                     <img src="atom_ani.gif">
@@ -23,13 +36,16 @@
             </tr>
         </tbody>
     </table>
-    <p class="below">Graphics * Unix * Networks * Fun</p>
+
+    <p class="below">Graphics * Unix * Networks * Fun</p> <!-- Tekst under overskriften -->
     <p class="below">Purveyors of fine freeware since 1972. On the net since 1991.</p>
 
-    <table width="100%" class="class7">
+    <img src="image0.gif" class="centerimage"> <!-- En gif i sentret -->
+
+    <table width="100%" class="class7"> <!-- CSS klasse som flytter elementene litt til høyre -->
         <tr>
             <ul>
-                <td>
+                <td> <!-- Del 1 -->
                 <li> <a href="updates/"><b>ACME Updates.</b></a>
                 <li> <a href="maps.html">ACME Labs maps</a>, including:
                 <ul>
@@ -52,7 +68,7 @@
                 <li> The <a href="javascript/">ACME JavaScript utilities</a>.
                 <li> The <a href="java/">ACME Java pages</a>.
                 </td>
-                <td>
+                <td> <!-- Del 2 -->
                 <ul>
                     <li> The <a href="java/software/Phoon.html">current phase of the Moon</a>, in Java.
                     <li> A <a href="java/software/Acme.Fmt.html">Java printf()-equivalent</a>.
@@ -77,7 +93,7 @@
                 <li> <a href="unicode/transformations.html">Unicode Transformations</a>. </li>
                 <li> <a href="unicode/decode.html">Unicode Decoder</a>. </li>
                 </td>
-                <td>
+                <td> <!-- Del 3 -->
                 </ul>
                     <li> <a href="onemonth/">One Month</a>, a single calendar page.
                 </ul>
@@ -103,22 +119,15 @@
         </tr>
     </table>
 
-  
+
     <hr class="thick">
-  
-    <p class="below">
+
+    <p class="below"> <!-- Samme klasse som det brukt under overskriften, tekst mellom 2 stanger-->
         Note: the only affiliation between ACME Laboratories and Warner Brothers
         is that I've been a fan of Wile E. Coyote for decades.
     </p>
-  
+
     <hr class="thick">
-  
-    <a href="https://validator.w3.org/check?uri=referer"><img class="logo" width="88" height="31" border="0" src="/resources/images/valid-html401-gold.png" alt="valid HTML"></a>
-  
-    <p>
-        <a href="/mailto/?id=wa"><img class="mailto" src="/mailto/wa.gif" alt="email"></a>
-        <br>
-        <a href="/software/thttpd/"><img border="0" src="/software/thttpd/logos/thttpd_powered_2.gif" alt="logo"></a>
-    </p>
+
 </body>
 </html>

@@ -1,18 +1,3 @@
-@font-face {
-    font-family: 'opensansitalic';
-    src: url('opensans italic.ttf');
-}
-
-@font-face {
-    font-family: 'opensans';
-    src: url('opensans.ttf');
-}
-
-*{
-    background-color: #99cc99;
-}
-
-
 hr.thick{
     height: 10px; background-color: #cccc99; border-color: #cccc99; border-width: 2px;
 }
@@ -29,15 +14,16 @@ hr.thick{
     color: black;
 }
 
-.yesyes{
-    text-align: center;
-    font-family: 'opensansitalic';
-    font-size: 45px;
-    height: 35px;
+.centerimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 
 .below{
     text-align: center;
     font-family: 'opensans';
+    font-style: italic;
     font-size: 20px;
 }
